@@ -52,7 +52,7 @@ public class Lab8App {
 		System.out.println("511 in base 16 = " + recursion.convert(511, 16));
 		System.out.println("65535 in base 16 = " + recursion.convert(65535, 16));
 		System.out.println("65535 in base 18 = " + recursion.convert(65535, 18));
-
+		System.out.println(recursiveHanoi(3, "One", "Two", "Three"));
 	}
 
 	public int strToNum(String str) {
